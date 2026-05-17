@@ -1,0 +1,37 @@
+
+$primary: rgb(8, 53, 80); // Azul marino profundo
+$secondary: rgb(60, 162, 146); // Verde azulado
+$success: rgb(78, 190, 149); // Verde Menta
+
+$info: rgb(33, 158, 188); // Azul cielo (Para información)
+$warning: rgb(255, 183, 3); // Ámbar
+$danger: rgb(231, 111, 81); // Terracota
+$light: rgb(250, 246, 246); // Fondo principal #F7F9FB
+$dark: rgb(18, 27, 38); // Texto muy oscuro (casi negro) #1D2D35
+
+$body-bg: $light;
+$fondo-secundario: rgb(236, 248, 248);
+
+$weight-titulo: 600;
+
+$weight-titulo: 700;
+
+$font-size-base: 1.1rem;
+$h1-font-size: $font-size-base * 2.5; // Aproximadamente 40px
+$h2-font-size: $font-size-base * 2; // Aproximadamente 32px
+$h3-font-size: $font-size-base * 1.75;
+$h4-font-size: $font-size-base * 1.5;
+$h5-font-size: $font-size-base * 1.25;
+$h6-font-size: $font-size-base;
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "success": $success,
+    "info": $info,
+    "warning": $warning,
+    "danger": $danger,
+    "light": $light,
+    "dark": $dark
+);
+
